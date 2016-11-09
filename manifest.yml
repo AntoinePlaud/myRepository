@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: myNewAppForSupply2
+  host: myNewAppForSupply2
+  disk_quota: 1024M
+  services:
+  - myAlchemyForSupplyChain
